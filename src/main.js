@@ -1,9 +1,10 @@
-//console.log("hello world");
 let config = {
-    type: Phaser.AUTO,
+    type: Phaser.CANVAS,
     width: 640,
     height: 480,
-    scene: [ Menu, Play ]
-}
+    scene: [ Menu, Play ],
+};
 
 let game = new Phaser.Game(config);
+//reserve keyboard vars
+let keyF, keyLEFT, KeyRIGHT;
